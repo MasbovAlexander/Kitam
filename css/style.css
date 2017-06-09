@@ -1,0 +1,302 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #868585;
+    background: #fdfcfb;
+    font-weight: normal;
+}
+
+img {
+    max-height: 700%;
+    top: -50px;
+}
+
+header {
+    padding: 100px 0 80px;
+    background: url(../images/logo.jpg) no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    background: rgba(254, 254, 254, 0.79);
+    border: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    padding-right: 80px;
+}
+
+.navbar-brand img {
+    position: relative;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #8d8c8c;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li.active-link > a {
+    border-bottom: 1px solid #d42819;
+    color: #8d8c8c;
+}
+
+.navbar-default .navbar-nav:not(.icons) > li > a:hover {
+    border-bottom: 1px solid #d42819;
+    color: #000000;
+}
+
+.icons li a {
+    padding: 15px 5px 5px;
+}
+
+.menu .container {
+    position: relative;
+}
+
+.globe {
+    font-size: 25px;
+    line-height: 50px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.name_jor h1 {
+    display: table;
+    width: auto;
+    margin: 0 auto;
+    padding: 15px;
+    letter-spacing: 2px;
+    background: rgba(203, 220, 234, 0.8);
+    border: 2px dashed white;
+    color: white;
+    box-shadow: 0 0 0 4px #cbdcea;
+}
+
+.row {
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.main_zag h1 {
+    font-family: 'Merriweather', serif;
+    position: relative;
+    color: #FCF2E5;
+    border-radius: 100px;
+    background: rgba(141, 140, 140, 0.7);
+    font-size: 2.5em;
+    padding: 10px 40px;
+}
+
+.bullet {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.pad1 {
+    padding-top: 15px;
+}
+
+.pad {
+    padding-top: 7px;
+}
+
+.pad2{
+    padding-top: 20px;
+}
+
+.dropdown-menu {
+    background-color: rgba(254, 254, 254, 0.79);
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: rgba(254, 254, 254, 0);
+    border-bottom: 1px solid #d42819;
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+    background: rgba(254, 254, 254, 0);
+}
+
+.sertech:after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+.sertech form {
+    margin: 1% auto;
+    position: relative;
+    width: auto;
+    float: right;
+}
+
+.sertech input {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+
+.sertech input:focus {
+    width: 300px;
+}
+
+.sertech button {
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: -2px;
+    right: 0;
+}
+
+.sertech button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #324b4e;
+}
+
+.dropdown-toggle .nav .open > a:focus {
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+
+.param{
+    padding-top: 1000px;
+}
+
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: rgba(254, 254, 254, 0);
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: rgba(0, 0, 255, 0);
+}
+
+#footer {
+    height: 200px;
+    background-image: url(../images/blue.png);
+    background-size: 100% 100%;
+}
+
+
+/* Large desktop */
+
+@media only screen and (max-width: 1200px) {
+    .icons {
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-brand {
+        padding-right: 0;
+    }
+    .icons {
+        display: none;
+        position: absolute;
+        right: 30px;
+        top: 40px;
+    }
+    .icons li {
+        float: none;
+    }
+    .icons li a {
+        padding: 5px;
+    }
+    .globe {
+        display: block;
+    }
+    img {
+        max-height: 300%;
+        top: -20px;
+    }
+    .d9 {
+        padding-top: 40px;
+    }
+    .sertech form {
+        margin: 1% auto;
+    }
+}
+
+
+
+.padd{
+    padding-top: 50px;
+    
+}
+
+.dasd{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+/* Landscape phone to portrait tablet */
+
+@media only screen and (max-width: 767px) {
+    .globe {
+        display: none;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        border: 0;
+        color: #fff;
+        background: rgba(47, 25, 212, 0.5);
+    }
+    .navbar-nav > li > a {
+        transition: all 0.3s;
+    }
+    .icons {
+        display: block !important;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .icons li {
+        display: inline-block;
+    }
+    .sertech form {
+        margin: 2% auto;
+    }
+}
+
+
+/* Landscape phones and down */
+
+@media only screen and (max-width: 480px) {
+    .sertech form {
+        margin: 3% auto;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .icons {
+        display: block !important;
+    }
+}
